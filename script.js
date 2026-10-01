@@ -1,29 +1,60 @@
+// alterando o idioma para formatos BR USA ETC
+
+let data
+
+data = Intl.DateTimeFormat('en-US').format(data)
+
+console.log(data)
+
+// Criando calculadora de Dias
+
+//let inicio = new Date('2023/10/15')
+//let fim = new Date('2023/12/15')
+
+//let resultado = (fim - inicio) / (1000 * 3600 * 24)
+
+//console.log(resultado)
+
+//OBJETO DE DATA E HORA (Date)
+
+//let agora = new Date()
+//
+//console.log(agora)
+//
+//// let dataHoje = new Date(2025, 4, 20, 10, 35, 0)
+//
+////console.log(dataHoje)
+//
+//console.log(agora.getDate())
+//console.log(agora.getMonth())
+//console.log(agora.getHours())
+
 //Objetos para multiplos valores
 
 //let carNome =  polo
 //let KML = 600
 //let velicidadeMx = 250
 //let potencia = 1200
-
-let car = {
-  carNome: 'Polo',
-  KML: 600,
-  velicidadeMx: 250,
-  potencia: 1200,
-}
-
-console.log(car)
-
-//Metodos matematicos (MATH)
-
-let num1 = 2
-console.log(Math.round(num1))
-console.log(Math.ceil(num1))
-console.log(Math.floor(num1))
-console.log(Math.sqrt(num1))
-console.log(Math.pow(num1, 3))
-console.log(Math.abs(num1))
-console.log(Math.round(Math.random() * 1000000 + 1))
+//
+//let car = {
+//  carNome: 'Polo',
+//  KML: 600,
+//  velicidadeMx: 250,
+//  potencia: 1200,
+//}
+//
+//console.log(car)
+//
+////Metodos matematicos (MATH)
+//
+//let num1 = 2
+//console.log(Math.round(num1))
+//console.log(Math.ceil(num1))
+//console.log(Math.floor(num1))
+//console.log(Math.sqrt(num1))
+//console.log(Math.pow(num1, 3))
+//console.log(Math.abs(num1))
+//console.log(Math.round(Math.random() * 1000000 + 1))
 
 ////Numeros  metodos
 //let num1 = 3.37012
