@@ -1,12 +1,49 @@
-// TODOS ITENS EM APENAS UMA ARRAY
+//DESAFIO - CRIAR LISTA num 1 e num 2 sao mescladas e organizadas
 
-let petShop = ['Dogs', 'Cats', 'Birds', 'Hamsters']
-let numbers = [10, 20, 33, 40, 5, 15, true]
+let num1 = [10, 20, 30, 40, 50]
+let num2 = [90, 80, 70, 60, 50]
 
 let y
-y = petShop.concat(numbers)
+
+y = num1.concat(num2).sort().slice()
 
 console.log(y)
+
+// ARRAY NESTED ARRAYS - UMA DENTRO DA OUTRA
+
+//let numeros = [10, 11, 19, [25, 22, 27], 9, 7, 5, [47, 44, 51]]
+//
+//let y
+//
+//y = numeros.flat().sort()
+//console.log(y)
+//
+//console.log(numeros)
+
+// METODOS ESTATICO DE ARRAY
+
+//let num1 = 10
+//let num2 = 20
+//let num3 = 30
+//
+//let todos = Array.of(num1, num2, num3)
+//
+//console.log(todos)
+//
+//let y
+//
+//y = Array.from('122')
+//console.log(y)
+
+// TODOS ITENS EM APENAS UMA ARRAY
+
+//let petShop = ['Dogs', 'Cats', 'Birds', 'Hamsters', 'Rats']
+//let numbers = [10, 20, 33, 40, 5, 15, true]
+
+//let y
+//y = petShop.concat(numbers).reverse().sort()
+
+//console.log(y)
 
 // CHAIN VC PODE USAR VARIOS METODOS E ELE FUNCIONA OCMO SE FOSSE UMA CORRENTE CONECTADA
 //let petShop = ['Dogs', 'Cats', 'Birds', 'Hamsters']
