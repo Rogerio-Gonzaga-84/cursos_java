@@ -1,10 +1,26 @@
+// EXERCICIO CRIAR UMA LISTA E IMPRMIR O ITEM QUE APARACE BIRD
+
+let petShop = ['Dogs', 'Cats', 'Birds', 'Hamsters']
+
+console.log(`In the second cage we have: ${petShop[2]}.`)
+
+//ARRAY COMO FUNINA OQUE FAZ ETC ! ELA PERMINTE ARMAZENAS MULTIPLOS DADOS VARIOS TIPOS NUMEROS OBJETOS STRING
+// VAMOS CROIAR UMA LISTA DE CARRINHOS DE COMPRAS
+
+//let carrinho = ['Agua', 'Arroz', 'Carne', 'Feijao']
+//carrinho[0] = 'Cerveja'
+//
+//console.log(carrinho)
+//console.log(`A minha comida favorita é ${carrinho[2]} e ${carrinho[1]}.`)
+//console.log(`A minha lista de hoje contem os itens ${carrinho}`)
+
 // alterando o idioma para formatos BR USA ETC
 
-let data
+//let data
 
-data = Intl.DateTimeFormat('en-US').format(data)
+//data = Intl.DateTimeFormat('en-US').format(data)
 
-console.log(data)
+//console.log(data)
 
 // Criando calculadora de Dias
 
