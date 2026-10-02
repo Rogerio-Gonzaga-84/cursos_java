@@ -1,15 +1,45 @@
-// EXERCICIO CRIAR UMA LISTA E IMPRMIR O ITEM QUE APARACE BIRD
+// TODOS ITENS EM APENAS UMA ARRAY
 
 let petShop = ['Dogs', 'Cats', 'Birds', 'Hamsters']
 let numbers = [10, 20, 33, 40, 5, 15, true]
+
 let y
+y = petShop.concat(numbers)
+
+console.log(y)
+
+// CHAIN VC PODE USAR VARIOS METODOS E ELE FUNCIONA OCMO SE FOSSE UMA CORRENTE CONECTADA
+//let petShop = ['Dogs', 'Cats', 'Birds', 'Hamsters']
+//let numbers = [10, 20, 33, 40, 5, 15, true]
+//
+//let petNumber = [petShop, numbers]
+//console.log(petNumber)
+//
+//let y
+//petShop.push(numbers)
+//console.log(petShop)
+//
+//y = petShop[1][1]
+//console.log(y)
+//
+//let y
+
+//y = petShop.splice(1, 3).reverse().toString().includes('Cats')
+//console.log(y)
+//console.log(petShop)
+
+// EXERCICIO CRIAR UMA LISTA E IMPRMIR O ITEM QUE APARACE BIRD
+
+//let petShop = ['Dogs', 'Cats', 'Birds', 'Hamsters']
+//let numbers = [10, 20, 33, 40, 5, 15, true]
+//let y
 
 //y = petShop.includes('cats')
 //y = petShop.indexOf('Cats')
 //y = petShop.slice(1, 3)
-y = petShop.splice(1, 3)
-console.log(y)
-console.log(petShop)
+//y = petShop.splice(1, 3)
+//console.log(y)
+//console.log(petShop)
 //petShop.push('Rato')
 //petShop.pop()
 //petShop.shift()
