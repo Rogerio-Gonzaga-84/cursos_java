@@ -1,13 +1,56 @@
+// IF e ELSE com operadores Logicos AND OR E = && ou ||
+
+// SITE DE EVENTO ONLINE VER IDADE MINIMA OU SE JA FEZ O REGISTRO  IDADE MAIOR QUE 18 REGISTRO TEM QUE SER COMO = TRUE
+
+let idade = 18
+let registro = false
+
+if (idade >= 18 && registro) {
+  console.log('Voce pode jogar e ja esta registrado!')
+} else {
+  console.log('Idade menor')
+}
+
+// DESAFIO MOSTRAR PONTUAÇÂO E UMA MSG
+
+//let nota = 74
+//
+//if (nota >= 90) {
+//  console.log('Exelente!')
+//} else if (nota >= 75) {
+//  console.log('Muito Bom!')
+//} else {
+//  console.log('Você pode melhorar!')
+//}
+
+// IF E ELSE / ESLE IF  (SE E SE NAO e )
+
+//if (condição) {
+//    // VAI EXECUTAR SE ESTA CONDIÇÂO FOR VERDADEIRA
+// SE NAO EXCUTA A OUTRA PARTE
+
+//}
+
+//let hora = 19
+//
+//if (hora <= 12) {
+//  console.log('Bom dia')
+//} else if (hora <= 18) {
+//  console.log('Boa tarde')
+//} else {
+//  console.log('Boa noite')
+//}
+
 //DESAFIO - CRIAR LISTA num 1 e num 2 sao mescladas e organizadas
 
-let num1 = [10, 20, 30, 40, 50]
-let num2 = [90, 80, 70, 60, 50]
-
-let y
-
-y = num1.concat(num2).sort().slice()
-
-console.log(y)
+//let num1 = [10, 20, 30, 40, 50]
+//let num2 = [90, 80, 70, 60, 50]
+//
+//let y
+//
+//y = num1.concat(num2).sort().slice()
+//
+//console.log(y)
 
 // ARRAY NESTED ARRAYS - UMA DENTRO DA OUTRA
 
