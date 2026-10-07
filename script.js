@@ -1,16 +1,29 @@
 // IF e ELSE com operadores Logicos AND OR E = && ou ||
 
-// SITE DE EVENTO ONLINE VER IDADE MINIMA OU SE JA FEZ O REGISTRO  IDADE MAIOR QUE 18 REGISTRO TEM QUE SER COMO = TRUE
+// USANDO OU  = RECEBE DESCOINTO DE FOR ESTUDABRE OU SE TIVER UM CUPON DE DESCONTO
 
-let idade = 18
-let registro = false
+let estudante = false
+let cupom = false
 
-if (idade >= 18 && registro) {
-  console.log('Voce pode jogar e ja esta registrado!')
+if (estudante || cupom) {
+  console.log('Voce tem acesso a uma promoção')
 } else {
-  console.log('Idade menor')
+  console.log(
+    'Voce precisa ser estudante ou ter um cupom para ter acesso ao desconto',
+  )
 }
 
+// SITE DE EVENTO ONLINE VER IDADE MINIMA OU SE JA FEZ O REGISTRO  IDADE MAIOR QUE 18 REGISTRO TEM QUE SER COMO = TRUE
+
+//let idade = 19
+//let registro = true
+//
+//if (idade >= 18 && registro) {
+//  console.log('Voce pode jogar e ja esta registrado!')
+//} else {
+//  console.log('Idade menor')
+//}
+//
 // DESAFIO MOSTRAR PONTUAÇÂO E UMA MSG
 
 //let nota = 74
